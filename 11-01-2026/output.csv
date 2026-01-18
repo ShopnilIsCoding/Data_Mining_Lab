@@ -1,0 +1,11 @@
+id,src_ip,dst_ip,protocol,service,duration,bytes_sent,bytes_received,state,attack
+1,192.168.1.10,10.0.0.5,TCP,http,12.4,1532,823,FIN,Normal
+2,192.168.1.20,10.0.0.8,UDP,dns,3.2,212,98,CON,Normal
+3,172.16.0.14,10.0.0.12,TCP,ftp,44.1,5234,3421,FIN,Fuzzers
+4,10.1.1.7,10.0.0.20,ICMP,ping,0.8,64,64,REQ,Normal
+5,203.0.113.55,10.0.0.25,TCP,ssh,19.6,3221,1420,FIN,DoS
+6,198.51.100.33,10.0.0.30,TCP,smtp,8.7,1400,500,CON,Exploits
+7,192.168.1.50,10.0.0.40,UDP,ntp,2.1,180,60,CON,Reconnaissance
+8,10.2.0.9,10.0.0.45,TCP,telnet,31.3,6210,2120,FIN,Backdoor
+9,172.16.1.19,10.0.0.50,TCP,https,15.9,2900,1730,FIN,Normal
+10,198.51.100.88,10.0.0.60,UDP,snmp,5.4,360,120,CON,Shellcode

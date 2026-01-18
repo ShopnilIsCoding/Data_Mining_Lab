@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "src_ip": "192.168.1.10",
+    "dst_ip": "10.0.0.5",
+    "protocol": "TCP",
+    "service": "http",
+    "duration": 12.4,
+    "bytes_sent": 1532,
+    "bytes_received": 823,
+    "state": "FIN",
+    "attack": "Normal"
+  },
+  {
+    "id": 2,
+    "src_ip": "192.168.1.20",
+    "dst_ip": "10.0.0.8",
+    "protocol": "UDP",
+    "service": "dns",
+    "duration": 3.2,
+    "bytes_sent": 212,
+    "bytes_received": 98,
+    "state": "CON",
+    "attack": "Normal"
+  },
+  {
+    "id": 3,
+    "src_ip": "172.16.0.14",
+    "dst_ip": "10.0.0.12",
+    "protocol": "TCP",
+    "service": "ftp",
+    "duration": 44.1,
+    "bytes_sent": 5234,
+    "bytes_received": 3421,
+    "state": "FIN",
+    "attack": "Fuzzers"
+  },
+  {
+    "id": 4,
+    "src_ip": "10.1.1.7",
+    "dst_ip": "10.0.0.20",
+    "protocol": "ICMP",
+    "service": "ping",
+    "duration": 0.8,
+    "bytes_sent": 64,
+    "bytes_received": 64,
+    "state": "REQ",
+    "attack": "Normal"
+  },
+  {
+    "id": 5,
+    "src_ip": "203.0.113.55",
+    "dst_ip": "10.0.0.25",
+    "protocol": "TCP",
+    "service": "ssh",
+    "duration": 19.6,
+    "bytes_sent": 3221,
+    "bytes_received": 1420,
+    "state": "FIN",
+    "attack": "DoS"
+  },
+  {
+    "id": 6,
+    "src_ip": "198.51.100.33",
+    "dst_ip": "10.0.0.30",
+    "protocol": "TCP",
+    "service": "smtp",
+    "duration": 8.7,
+    "bytes_sent": 1400,
+    "bytes_received": 500,
+    "state": "CON",
+    "attack": "Exploits"
+  },
+  {
+    "id": 7,
+    "src_ip": "192.168.1.50",
+    "dst_ip": "10.0.0.40",
+    "protocol": "UDP",
+    "service": "ntp",
+    "duration": 2.1,
+    "bytes_sent": 180,
+    "bytes_received": 60,
+    "state": "CON",
+    "attack": "Reconnaissance"
+  },
+  {
+    "id": 8,
+    "src_ip": "10.2.0.9",
+    "dst_ip": "10.0.0.45",
+    "protocol": "TCP",
+    "service": "telnet",
+    "duration": 31.3,
+    "bytes_sent": 6210,
+    "bytes_received": 2120,
+    "state": "FIN",
+    "attack": "Backdoor"
+  },
+  {
+    "id": 9,
+    "src_ip": "172.16.1.19",
+    "dst_ip": "10.0.0.50",
+    "protocol": "TCP",
+    "service": "https",
+    "duration": 15.9,
+    "bytes_sent": 2900,
+    "bytes_received": 1730,
+    "state": "FIN",
+    "attack": "Normal"
+  },
+  {
+    "id": 10,
+    "src_ip": "198.51.100.88",
+    "dst_ip": "10.0.0.60",
+    "protocol": "UDP",
+    "service": "snmp",
+    "duration": 5.4,
+    "bytes_sent": 360,
+    "bytes_received": 120,
+    "state": "CON",
+    "attack": "Shellcode"
+  }
+]
