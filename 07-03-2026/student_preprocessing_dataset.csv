@@ -1,0 +1,11 @@
+Student_ID,Name,Age,Gender,Department,Marks,Attendance
+101,Ayan,21.0,Male,CSE,85.0,"90x"
+102,Bristi,22.0,Female,EEE,90.0,"85"
+103,Chayan,,Female,CSE,88.0,"88"
+104,Dina,23.0,Male,BBA,,"92"
+105,Emon,24.0,,CSE,95.0,"95"
+105,Emon,24.0,,CSE,95.0,"95"
+106,Farin,200.0,Male,EEE,99.0,"80"
+107,Gopal,22.0,Female,BBA,87.0,"86"
+108,Hridoy,21.0,Male,CSE,500.0,"91"
+109,Iqra,,Female,EEE,89.0,"89"
